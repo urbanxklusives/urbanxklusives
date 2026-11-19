@@ -5,6 +5,7 @@
 > home for music, art and roots.
 
 - Main site: https://urbanxklusives.com/
+- Posts are paginated, 25 per page: page 1 is the homepage, pages 2-8 at https://urbanxklusives.com/page-2.html through https://urbanxklusives.com/page-8.html. Every post also has a share page at https://urbanxklusives.com/posts/<slug>/.
 - Submit music: https://urbanxklusives.com/#submit
 - Contact: urbanxklusives@gmail.com
 - YouTube: https://youtube.com/@urbanxklusives
@@ -28,13 +29,13 @@
 - The Q Files: tribute to Q, founder of WorldStarHipHop, who met founder
   Trav Mane in Toronto during NBA All-Star Weekend 2016.
 - Tell Your Story: community storytelling for artists, kids, survivors and warriors.
-- Shop: UXK merch ($65–$85) — checkout opens at launch; add to cart saves your pick for now. https://urbanxklusives.com/#shop
+- Shop: UXK merch ($65–$85) — checkout opens at launch; add to cart saves your pick for now. https://urbanxklusives.com/page-8.html#shop
 
 ## Hero and headliner
 
 - Xklusive is the UXK headliner: Jamaican dancehall artist, breakout
   "Big Money Poppin" (2016), known to fans as Broomy.
-  https://urbanxklusives.com/#post-xklusive-mascot
+  https://urbanxklusives.com/page-7.html#post-xklusive-mascot
 
 ## Key features and posts
 
@@ -49,16 +50,16 @@
 - Best music promotion for independent artists in Canada:
   https://urbanxklusives.com/posts/post-best-music-promotion-independent-artists-canada/
 - $50 submission Q&A: what the $50 submission is, the five $50 lanes, and the plain answer that $50 does NOT guarantee a mixtape slot:
-  https://urbanxklusives.com/#post-qa-50-submission
-- $50 submissions FAQ (8 answers, Nov 6, 2026): https://urbanxklusives.com/#post-faq-50-submission
-- Career e-books: three guides, $9.99 each or $14.99 for all three, PDF by email after payment: https://urbanxklusives.com/#post-career-ebooks
-- GoFundMe: UrbanXklusives — The Movement's Next Chapter, $15,000 goal for the tapes, the tour & the merch: https://urbanxklusives.com/#post-gofundme-next-chapter
-- What you pay for (every price on the site in one place): https://urbanxklusives.com/#what-you-pay-for
+  https://urbanxklusives.com/page-5.html#post-qa-50-submission
+- $50 submissions FAQ (8 answers, Nov 6, 2026): https://urbanxklusives.com/page-4.html#post-faq-50-submission
+- Career e-books: three guides, $9.99 each or $14.99 for all three, PDF by email after payment: https://urbanxklusives.com/page-4.html#post-career-ebooks
+- GoFundMe: UrbanXklusives — The Movement's Next Chapter, $15,000 goal for the tapes, the tour & the merch: https://urbanxklusives.com/page-5.html#post-gofundme-next-chapter
+- What you pay for (every price on the site in one place): https://urbanxklusives.com/page-2.html#what-you-pay-for
 - Garrain Jones "Back to the Future": Trav's California interview timeline —
   from living out of his car to the top of the game:
-  https://urbanxklusives.com/#spotlight-garrain
+  https://urbanxklusives.com/page-7.html#post-garrain-jones
 - UXK Live: https://urbanxklusives.com/#live (Kick and TikTok)
-- Sponsorship and partnership tiers: https://urbanxklusives.com/#sponsorship
+- Sponsorship and partnership tiers: https://urbanxklusives.com/page-8.html#sponsorship
 
 ## The UXK network
 
