@@ -452,3 +452,17 @@ document.addEventListener('click', function (e) {
   frame.setAttribute('loading', 'eager');
   btn.parentNode.replaceChild(frame, btn);
 });
+
+/* ============ LIVE HEADER DATE — replaces the hardcoded dateline ============
+   The util bar carries <span id="dateline"> with a hardcoded date as the
+   no-JS fallback; this writer keeps it current in the same all-caps
+   format ("THURSDAY, NOVEMBER 19, 2026"). Added Nov 19, 2026
+   (layout fixes — the hardcoded SEPTEMBER 28, 2026 was stale). */
+(function () {
+  var el = document.getElementById('dateline');
+  if (!el) return;
+  var days = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
+  var months = ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'];
+  var d = new Date();
+  el.textContent = days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+})();

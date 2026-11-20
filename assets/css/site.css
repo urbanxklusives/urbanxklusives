@@ -889,3 +889,23 @@ a.soc:focus-visible{outline:2px solid #f5d76e;outline-offset:2px}
 /* ---- Post cards: a quiet gold lift on hover ---- */
 .brand-post{transition:box-shadow .25s}
 .brand-post:hover{box-shadow:0 0 26px rgba(212,175,55,.30)}
+
+/* ================================================================
+   LAYOUT FIXES — Nov 19, 2026 (Trav's word, from preview screenshots)
+   1. Util-bar social row: the row used to wrap (flex-wrap:wrap let its
+      min-content collapse to one icon, so a crowded bar shrank the ROW
+      instead of the tagline — icons clipped at the viewport top and
+      Threads dropped onto the masthead). Now: never wrap, never shrink;
+      the tagline takes the shrink (ellipsis) on desktop and hides below
+      900px. Dateline never wraps; hides below 640px (was 600px).
+   2. Footer social row: 40px icons + tighter gap on phones so all 7
+      fit one row at 412px (7x40 + 6x8 = 328px). 48px kept on desktop.
+   3. Live header date is JS — see the dateline writer in site.js.
+   ================================================================ */
+.util .wrap{gap:12px}
+.util #dateline{flex:none;white-space:nowrap}
+.util .tagline{flex:1 1 auto;min-width:0}
+.util .soc-row{flex-wrap:nowrap;flex:none}
+@media (max-width:900px){.util .tagline{display:none}}
+@media (max-width:640px){.util #dateline{display:none}.util .wrap{justify-content:flex-end}}
+@media (max-width:760px){footer .soc-row{gap:8px;flex-wrap:nowrap}footer a.soc{width:40px;height:40px}footer a.soc svg{width:20px;height:20px}}
