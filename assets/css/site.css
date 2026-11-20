@@ -218,7 +218,7 @@
   .cta .btn small { display:block; font-family:'Oswald'; font-weight:600; font-size:13px; letter-spacing:3px; margin-top:4px; }
 
   /* ---------- section heads ---------- */
-  .sec-head { display:flex; align-items:center; gap:12px; margin:26px 0 14px; }
+  .sec-head { display:flex; align-items:center; gap:12px; margin:32px 0 14px; }
   .sec-head h2 { font-family:'Anton'; font-size:26px; letter-spacing:2px; text-transform:uppercase; }
   .sec-head .rule { flex:1; height:3px; background:linear-gradient(90deg,#e01b1b,transparent); }
   .sec-head .more { font-size:12px; letter-spacing:2px; color:#999; }
@@ -260,18 +260,18 @@
   .sample-ad-card { border:1px solid #e01b1b; }
   .sample-ad-card:hover { border-color:#f5d76e; }
   .sample-ad-card .t h3 { color:#f5d76e; }
-  .brand-post { display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; border:1px solid #f5d76e; background:#0e0e0e; padding:18px; margin:22px 0; min-width:0; }
+  .brand-post { display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; border:1px solid #f5d76e; background:#0e0e0e; padding:20px; margin:28px 0; min-width:0; }
   .brand-post .xklusive-banner { flex:1 1 100%; }
   .brand-post > div { min-width:0; flex:1 1 auto; }
   .brand-post > a:first-child, .brand-post > img:first-child { flex:0 1 300px; max-width:42%; min-width:110px; display:block; }
   #post-jorja-smith-toronto-2026 > img:first-child { flex:1 1 100%; max-width:100%; }
-  #post-50-vs-33000 > img:first-child { flex:1 1 100%; max-width:100%; }
+  #post-kheilstone-body-to-body-riddim > img:first-child { flex:1 1 100%; max-width:100%; }
   .brand-post > a:first-child img { width:100%; height:auto; display:block; border:1px solid #333; }
   .brand-post > img:first-child { width:100%; height:auto; display:block; border:1px solid #333; }
   .brand-post img { height:auto; }
   .brand-post > div img { max-width:100%; }
-  .brand-post h3 { font-family:'Anton',Impact,sans-serif; letter-spacing:2px; color:#fff; font-size:22px; margin:10px 0 8px; overflow-wrap:break-word; }
-  .brand-post p { color:#bbb; font-size:14px; margin:0 0 14px; overflow-wrap:break-word; }
+  .brand-post h3 { font-family:'Anton',Impact,sans-serif; letter-spacing:2px; color:#fff; font-size:22px; margin:6px 0 10px; overflow-wrap:break-word; }
+  .brand-post p { color:#bbb; font-size:14px; margin:0 0 14px; line-height:1.65; overflow-wrap:break-word; }
   .brand-post.orange-post { border:2px solid #ff7a1a; box-shadow:0 0 22px rgba(255,122,26,.28); }
   .brand-post.orange-post .lb-tag { background:#ff7a1a; color:#111; }
   .brand-post.orange-post .cat-chip { background:#ff7a1a; color:#111; }
@@ -520,6 +520,7 @@
   .spotlight .btn:hover { transform:scale(1.05); }
   .video-row { display:flex; flex-wrap:wrap; gap:14px; margin-top:14px; }
   .video-row iframe { flex:1 1 240px; min-width:240px; aspect-ratio:16/9; border:1px solid #3a1111; background:#000; }
+  .video-row .yt-facade { position:relative; inset:auto; width:auto; height:auto; flex:1 1 240px; min-width:240px; aspect-ratio:16/9; border:1px solid #3a1111; }
 
   /* ---------- tell your story ---------- */
   .stories { margin-top:28px; background:#0c0c0c; border-top:1px solid #2a2a2a; border-bottom:1px solid #2a2a2a; }
@@ -690,9 +691,6 @@ opacity:0;pointer-events:none;transition:opacity .25s,transform .25s,background 
 .pb-links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
 .pb-btn{display:inline-block;background:#c9a227;color:#000;font-weight:700;font-size:13px;padding:12px 20px;border-radius:8px;text-decoration:none;transition:transform .2s,box-shadow .2s;}
 .pb-btn:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(201,162,39,.4);}
-#loadMoreBtn{display:block;margin:32px auto;padding:14px 40px;background:#c9a227;color:#000;border:none;border-radius:8px;font-size:15px;font-weight:700;cursor:pointer;letter-spacing:.5px;}
-#loadMoreBtn:hover{background:#d4af37;}
-.brand-post.post-hidden{display:none;}
 .nl-strip{background:#111;border:1px solid #c9a227;border-radius:12px;padding:20px 24px;margin:0 0 24px;text-align:center;}
 .nl-strip-tag{display:inline-block;background:#c9a227;color:#000;font-size:11px;font-weight:700;letter-spacing:1.5px;padding:5px 14px;border-radius:20px;margin-bottom:10px;}
 .nl-strip p{color:#ccc;font-size:14px;margin:0 0 14px;}

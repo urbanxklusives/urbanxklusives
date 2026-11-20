@@ -267,7 +267,7 @@ if (jbToggle) {
   });
 })();
 ;
-/* ===== service worker + load-more ===== */
+/* ===== service worker ===== */
 ;
 if('serviceWorker' in navigator){
   window.addEventListener('load', function(){
@@ -275,33 +275,7 @@ if('serviceWorker' in navigator){
   });
 }
 
-// Load-more: show first 12 posts, reveal rest on demand
-(function(){
-  var posts = document.querySelectorAll('#posts .brand-post');
-  var SHOW_INITIALLY = 12;
-  if(posts.length <= SHOW_INITIALLY) return;
-  for(var i = SHOW_INITIALLY; i < posts.length; i++){
-    posts[i].classList.add('post-hidden');
-  }
-  var btn = document.createElement('button');
-  btn.id = 'loadMoreBtn';
-  btn.textContent = 'LOAD MORE POSTS (' + (posts.length - SHOW_INITIALLY) + ' MORE)';
-  btn.addEventListener('click', function(){
-    var hidden = document.querySelectorAll('#posts .brand-post.post-hidden');
-    var batch = Math.min(12, hidden.length);
-    for(var j = 0; j < batch; j++){
-      hidden[j].classList.remove('post-hidden');
-    }
-    var remaining = document.querySelectorAll('#posts .brand-post.post-hidden').length;
-    if(remaining === 0){
-      btn.style.display = 'none';
-    } else {
-      btn.textContent = 'LOAD MORE POSTS (' + remaining + ' MORE)';
-    }
-  });
-  var postsSec = document.getElementById('posts');
-  postsSec.appendChild(btn);
-})();
+
 ;
 /* ===== reader mode ===== */
 ;

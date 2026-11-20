@@ -5,7 +5,7 @@
 > home for music, art and roots.
 
 - Main site: https://urbanxklusives.com/
-- Posts are paginated, 25 per page: page 1 is the homepage, pages 2-8 at https://urbanxklusives.com/page-2.html through https://urbanxklusives.com/page-8.html. Every post also has a share page at https://urbanxklusives.com/posts/<slug>/.
+- Posts are paginated, 12 per page: page 1 is the homepage, pages 2-16 at https://urbanxklusives.com/page-2.html through https://urbanxklusives.com/page-16.html. Every post also has a share page at https://urbanxklusives.com/posts/<slug>/.
 - Submit music: https://urbanxklusives.com/#submit
 - Contact: urbanxklusives@gmail.com
 - YouTube: https://youtube.com/@urbanxklusives
