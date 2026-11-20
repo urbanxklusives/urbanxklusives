@@ -909,3 +909,6 @@ a.soc:focus-visible{outline:2px solid #f5d76e;outline-offset:2px}
 @media (max-width:900px){.util .tagline{display:none}}
 @media (max-width:640px){.util #dateline{display:none}.util .wrap{justify-content:flex-end}}
 @media (max-width:760px){footer .soc-row{gap:8px;flex-wrap:nowrap}footer a.soc{width:40px;height:40px}footer a.soc svg{width:20px;height:20px}}
+
+/* PJ shout-grid facades: .post-video inside a grid cell needs no bottom margin (caption sits 6px below) */
+.shout-grid .post-video{margin:0}
